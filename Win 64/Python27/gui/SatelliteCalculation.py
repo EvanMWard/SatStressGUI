@@ -5,9 +5,11 @@ import os
 # ===============================================================================
 
 import numpy
+
 import traceback
 from exc import LocalError
-
+from gridcalc import *
+from satstress import *
 seconds_in_year = 31556926.0
 
 class SatelliteCalculation(object):
@@ -39,11 +41,11 @@ class SatelliteCalculation(object):
         (0, "CORE")]
 
     stress_d = {
-        u'Nonsynchronous Rotation': "NSR",
-        u'Diurnal': "Diurnal",
-        u'Ice Shell Thickening': "IST",
-        u'Obliquity': "DiurnalObliquity",
-        u'Polar Wander': "PolarWander"}
+        u'Nonsynchronous Rotation': NSR,
+        u'Diurnal': Diurnal,
+        u'Ice Shell Thickening': IST,
+        u'Obliquity': DiurnalObliquity,
+        u'Polar Wander': PolarWander}
 
     grid_vars_d = [
         ("MIN", u'Minimum value'),

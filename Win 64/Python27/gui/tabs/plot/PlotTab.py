@@ -4,6 +4,7 @@ from Dialog import error_dialog
 from exc import LocalError
 from Config import *
 import traceback
+from satstress import *
 
 import matplotlib
 matplotlib.interactive(False)
