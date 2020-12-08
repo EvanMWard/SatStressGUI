@@ -307,7 +307,7 @@ Jara-Orue, H. M., & Vermeersen, B. L. (2011). Effects of low-viscous layers and 
 obliquity on surface stresses induced by diurnal tides and non-synchronous rotation: The \
 case of Europa. Icarus, 215(1), 417-438.
 """
-        self.makeMsgDialog(Resources, u'About Olibque Orbits')
+        self.makeMsgDialog(Resources, u'About Oblique Orbits')
 
     def onISTref(self, evt):
         Resources = u"""As satellites age, they could become cooler. \

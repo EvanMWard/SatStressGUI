@@ -261,7 +261,7 @@ class SatelliteCalculation(object):
         finally:
             f.close()
 
-    # builds a string with relevant satelllite parameters
+    # builds a string with relevant satellite parameters
     def dump_satellite(self):
         try:
             s = "\n".join(["%s = %s" % (v, self.parameters[v]) for v, d in self.satellite_vars])

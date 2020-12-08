@@ -461,7 +461,8 @@ class ScalarPlotPanel(PlotPanel):
     def on_save_shape(self, evt):
         file_dialog(self,
             message = u"Save to shape file",
-            style = wx.SAVE | wx.OVERWRITE_PROMPT,
+            style = wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT,
+            #style = wx.SAVE | wx.OVERWRITE_PROMPT, -- This may be deprecated, check back after shp2lins has been written - EW 2020
             wildcard = 'Shape files (*.shp)|*.shp',
             defaultFile = 'lineaments.shp',
             action = self.save_shape)

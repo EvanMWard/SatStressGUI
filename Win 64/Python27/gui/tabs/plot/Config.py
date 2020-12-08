@@ -1,6 +1,7 @@
 # ===============================================================================
 # Class containing overhead functions for configuring, used in PlotPanel
 # ===============================================================================
+import satstress
 class Config:
     """
     Class the holds application settings --> specifically?
@@ -16,7 +17,7 @@ class Config:
     def load(self, *a):
         try:
             c = open(self.configfile)
-            self.conf = nvf2dict(c)
+            self.conf = satstress.nvf2dict(c)
             c.close()
             ret = filter(lambda x: x, map(self.conf.get, a))
             if len(a) == 1 and len(ret) == 1:
