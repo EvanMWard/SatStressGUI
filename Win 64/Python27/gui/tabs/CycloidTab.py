@@ -1,12 +1,12 @@
 # ===============================================================================
 # CYCLOID TAB
 # ===============================================================================
-from SatPanel import SatPanel
+from ..share.SatPanel import SatPanel
 import random
-from WrapStaticText import WrapStaticText
-from Dialog import *
+from ..share.WrapStaticText import WrapStaticText
+from ..share.Dialog import *
 import os
-from exc import LocalError
+from ..exc import LocalError
 import csv
 
 class CycloidsPanel(SatPanel):

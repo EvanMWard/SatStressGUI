@@ -4,12 +4,12 @@
 # ===============================================================================
 from wx.lib import scrolledpanel
 
-from SatPanel import SatPanel
-from Adders import *
-from WrapStaticText import WrapStaticText
+from ..share.SatPanel import SatPanel
+from ..share.Adders import *
+from ..share.WrapStaticText import WrapStaticText
 import traceback
 from Dialog import *
-from exc import LocalError
+from ..exc import LocalError
 import csv
 import os
 

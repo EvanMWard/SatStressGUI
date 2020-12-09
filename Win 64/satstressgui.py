@@ -21,13 +21,13 @@ import sys
 #from satstress.stressplot import scalar_grid
 #import satstress.physcon
 
-from SatelliteCalculation import *
-from PointTab import *
-from StressesTab import *
-from ScalarPlot import *
-from SatelliteTab import *
-from CycloidTab import *
-from GridTab import *
+from Python27.gui.SatelliteCalculation import *
+from Python27.gui.tabs.PointTab import *
+from Python27.gui.tabs.StressesTab import *
+from Python27.gui.tabs.plot.ScalarPlot import *
+from Python27.gui.tabs.SatelliteTab import *
+from Python27.gui.tabs.CycloidTab import *
+from Python27.gui.tabs.GridTab import *
 
 
 

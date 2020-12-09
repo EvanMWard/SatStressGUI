@@ -3,10 +3,10 @@ import wx
 # ===============================================================================
 # SATELLITE TAB
 # ===============================================================================
-from ComboBox2 import *
-from SatPanel import SatPanel
-from Dialog import *
-from Adders import *
+from ..share.ComboBox2 import *
+from ..share.SatPanel import SatPanel
+from ..share.Dialog import *
+from ..share.Adders import *
 
 
 class SatelliteLayersPanel(SatPanel):

@@ -1,11 +1,11 @@
 # ===============================================================================
 # GRID TAB
 # ===============================================================================
-from Adders import *
-from ComboBox2 import *
-from SatPanel import SatPanel
-from Dialog import *
-from exc import LocalError
+from ..share.Adders import *
+from ..share.ComboBox2 import *
+from ..share.SatPanel import SatPanel
+from ..share.Dialog import *
+from ..exc import LocalError
 class GridCalcPanel(SatPanel):
     """
     Defines the grid panel of the GUI

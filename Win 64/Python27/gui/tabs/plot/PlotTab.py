@@ -1,7 +1,6 @@
-from SatPanel import *
-import numpy
-from Dialog import error_dialog
-from exc import LocalError
+from ...share.SatPanel import *
+from ...share.Dialog import error_dialog
+from ...exc import LocalError
 from Config import *
 import traceback
 from satstress import *

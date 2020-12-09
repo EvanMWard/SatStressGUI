@@ -4,16 +4,15 @@ import time
 
 import scipy.ndimage
 
-import satstress
-from Adders import add_radiobox2_to_sizer
-from ComboBox2 import add_combobox2_to_sizer, add_checkboxes_to_sizer, add_parameters_to_sizer
-from Dialog import file_dialog
-from WrapStaticText import WrapStaticText
+from ...share.Adders import add_radiobox2_to_sizer
+from ...share.ComboBox2 import add_combobox2_to_sizer, add_checkboxes_to_sizer, add_parameters_to_sizer
+from ...share.Dialog import file_dialog
+from ...share.WrapStaticText import WrapStaticText
 from PlotTab import *
 from StressPlot import *
-from cycloid import Cycloid
-from lineament import *
-from stressplot import scalar_grid
+from ....Lib.satstress.cycloid import Cycloid
+from ....Lib.satstress.lineament import *
+from ....Lib.satstress.stressplot import scalar_grid
 
 seconds_in_year = 31556926.0 # 365.24 days
 

@@ -1,11 +1,11 @@
 # coding=utf-8
-from SatPanel import SatPanel
-from WrapStaticText import *
-from ComboBox2 import *
+from ..share.SatPanel import SatPanel
+from ..share.WrapStaticText import *
+from ..share.ComboBox2 import *
 import re
-from Dialog import *
-from exc import LocalError
-from Adders import *
+from ..share.Dialog import *
+from ..exc import LocalError
+from ..share.Adders import *
 # ===============================================================================
 # STRESSES TAB
 # ===============================================================================

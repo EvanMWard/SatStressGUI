@@ -8,8 +8,9 @@ import numpy
 
 import traceback
 from exc import LocalError
-from gridcalc import *
-from satstress import *
+
+from ..Lib.satstress.gridcalc import *
+from ..Lib.satstress.satstress import *
 seconds_in_year = 31556926.0
 
 class SatelliteCalculation(object):
